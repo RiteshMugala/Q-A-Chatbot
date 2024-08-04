@@ -1,0 +1,501 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "ngit_info",
+        "patterns": ["Tell me about NGIT",
+        "NGIT information",
+        "About Neil Gogte Institute of Technology",
+        "What can you tell me about NGIT?",
+        "Share some details about NGIT with me.",
+        "Give me the lowdown on NGIT, please.",
+        "I'm interested in NGIT. Tell me about it.",
+        "Can you provide NGIT information?",
+        "Tell me more about NGIT.",
+        "I'd like to know about Neil Gogte Institute of Technology."],
+        "responses": [
+          "Neil Gogte Institute of Technology (NGIT) is the first engineering college to have started after the formation of Telangana state.NGIT was started in 2017 by Keshav Memorial Technical Educational Society with the sole purpose of promoting quality Engineering Education.NGIT is a sister concern of KMIT, approved by AICTE, affiliated to Osmania University, and recognized by the Government of Telangana.NGIT offers undergraduate courses in Computer Science Engineering and Artificial Intelligence & Machine learning."
+        ]
+      },
+      {
+        "tag": "ngit_seats",
+        "patterns": ["How many total seats are available per batch?",
+        "Can you provide information on the total available seats in a batch?",
+        "What is the total capacity of seats per batch?",
+        "Tell me about the overall seat availability in each batch.",
+        "Provide details about the total number of seats in a batch.",
+        "How are the seats distributed among different streams in a batch?",
+        "Give me information on the total seats available in the Computer Science and Engineering (CSE) program.",
+        "What is the seat allocation for CSE (AI & ML) in each batch?",
+        "Tell me about the specific seat distribution in the CSE program and CSE (AI & ML) program.",
+        "Can you break down the total available seats, specifying the counts for CSE and CSE (AI & ML)?"],
+        "responses": [
+          "Total Available seats per batch are 300. Total Seats Available in CSE are 180 and in CSE(AI&ML) are 120."
+        ]
+      },
+      {
+        "tag": "ngit_courses",
+        "patterns": ["What courses does NGIT offer?", "NGIT engineering courses", "Tell me about NGIT programs","Can you provide information on the courses offered by NGIT?",
+        "Tell me about the engineering courses available at NGIT.",
+        "What programs does NGIT offer in the field of engineering?",
+        "Provide details about the courses offered at NGIT.",
+        "I'm interested in NGIT's curriculum. What courses are available?",
+        "Can you list the engineering programs provided by NGIT?",
+        "Tell me about the academic offerings at NGIT.",
+        "I'd like to know more about NGIT's engineering courses. What can you tell me?",
+        "Share some information about the programs available at NGIT.",
+        "What are the different engineering courses offered by NGIT?"],
+        "responses": [
+          "The institute offers undergraduate courses in Computer Science Engineering and Artificial Intelligence & Machine learning."
+        ]
+      },
+      {
+        "tag": "ngit_placement",
+        "patterns": ["Tell me about NGIT placements", "Placement statistics at NGIT", "Companies at NGIT","Can you share information about the placement scenario at NGIT?",
+        "Tell me about the placement statistics at NGIT.",
+        "What can you tell me about the companies that visit NGIT for placements?",
+        "Provide details on the placement activities at NGIT.",
+        "I'm interested in NGIT's placements. Can you give me an overview?",
+        "Give me information on the companies that recruit from NGIT.",
+        "How are the placement opportunities at NGIT?",
+        "Tell me about the success rate of placements at NGIT.",
+        "What companies are actively involved in recruiting NGIT students?",
+        "Share some insights into the placement process and outcomes at NGIT."
+        ],
+        "responses": [
+          "Around 23 companies visited the campus for placements and recruited a good number of students from the First outgoing batch.At present, more than 100 companies have been flooding NGIT to recruit students."
+        ]
+      },
+      {
+        "tag": "ngit_tuition",
+        "patterns": ["What are the tuition fees at NGIT?", "NGIT fees", "Cost of studying at NGIT","Can you provide information on the tuition fees at NGIT?",
+        "Tell me about the fees structure at NGIT.",
+        "What is the cost of studying at NGIT?",
+        "Provide details about the tuition fees for NGIT.",
+        "I'm curious about NGIT fees. Can you give me an overview?",
+        "Tell me about the financial aspects of studying at NGIT.",
+        "What are the expenses associated with pursuing a degree at NGIT?",
+        "Give me information on the cost of education at NGIT.",
+        "Can you break down the fees for studying at NGIT?",
+        "Share some insights into the financial investment required for NGIT education."
+        ],
+        "responses": ["Tuition Fees per year are Rs. 90,000 and Special fees per year are Rs. 5,500."]
+      },
+      {
+        "tag": "ngit_facilities",
+        "patterns": ["Tell me about NGIT facilities", "Facilities at Neil Gogte Institute of Technology", "NGIT infrastructure","Can you provide information on the facilities available at NGIT?",
+        "Tell me about the infrastructure at Neil Gogte Institute of Technology.",
+        "What facilities does NGIT offer to its students?",
+        "Provide details about the amenities and services at NGIT.",
+        "I'm interested in NGIT facilities. Can you give me an overview?",
+        "Tell me about the resources and infrastructure at NGIT.",
+        "What are the available facilities for students at Neil Gogte Institute of Technology?",
+        "Give me information on the campus facilities at NGIT.",
+        "Can you elaborate on the infrastructure and amenities provided by NGIT?",
+        "Share some insights into the facilities and services offered at NGIT."],
+        "responses": ["NGIT has state-of-the-art facilities and successful teaching-learning processes similar to KMIT."]
+      },
+      {
+        "tag": "ngit_learning",
+        "patterns": ["What is Tessellator?", "Tell me about NGIT learning methods", "NGIT LMS",
+        "Can you explain what Tessellator is?",
+        "Tell me about the learning methods employed at NGIT.",
+        "What is the NGIT Learning Management System (LMS)?",
+        "Provide details about Tessellator and its role.",
+        "I'm curious about Tessellator. Can you provide information?",
+        "Tell me about the NGIT approach to learning.",
+        "What can you tell me about NGIT's use of technology in education?",
+        "Give me information on Tessellator and its significance at NGIT.",
+        "Can you elaborate on the learning methods and tools used at NGIT?",
+        "Share some insights into NGIT's Learning Management System (LMS) and its functionalities."],
+        "responses": [
+          "Tessellator is an in-house developed Learning Management System (LMS) software used at NGIT.It enhances the educational experience through theoretical sessions, programming tasks, and real-time feedback."
+        ]
+      },
+      {
+        "tag": "ngit_finishing_school",
+        "patterns": ["Tell me about NGIT Finishing School", "Finishing School program at NGIT", "NGIT skills training","Can you provide information about NGIT Finishing School?",
+        "Tell me about the Finishing School program at NGIT.",
+        "What is the focus of the NGIT Finishing School program?",
+        "Provide details about the skills training at NGIT.",
+        "I'm interested in NGIT's Finishing School. Can you give me an overview?",
+        "Tell me about the skills development program at NGIT.",
+        "What can you tell me about NGIT's approach to enhancing skills through training?",
+        "Give me information on the Finishing School initiative at NGIT.",
+        "Can you elaborate on the skills training programs offered at NGIT?",
+        "Share some insights into the Finishing School program and skills training at NGIT."],
+        "responses": [
+          "NGIT's Finishing School program is designed to prepare engineering students for the industry by providing hands-on training and practical skills."
+        ]
+      },
+      {
+        "tag": "ngit_project_school",
+        "patterns": ["Tell me about NGIT Project School", "NGIT projects", "Projects at NGIT","Can you provide information about NGIT Project School?",
+        "Tell me about the projects undertaken at NGIT.",
+        "What is the focus of NGIT's Project School?",
+        "Provide details about the project initiatives at NGIT.",
+        "I'm interested in NGIT projects. Can you give me an overview?",
+        "Tell me about the projects and their significance at NGIT.",
+        "What can you tell me about NGIT's approach to project-based learning?",
+        "Give me information on the Project School activities at NGIT.",
+        "Can you elaborate on the projects conducted as part of NGIT's curriculum?",
+        "Share some insights into the projects and their impact on learning at NGIT."],
+        "responses": [
+          "Project School at NGIT provides students with a well-rounded skill set through hands-on experience with end-to-end projects.Students can choose projects in domains like AI/ML, AWS, Cyber Security, Blockchain, IoT, Unreal, YOLO v4, etc."
+        ]
+      },
+      {
+        "tag": "admission_info",
+        "patterns": ["How to get admission in NGIT?", "Admission process at NGIT", "NGIT entrance exam","Can you guide me on how to secure admission in NGIT?",
+        "Tell me about the admission process at NGIT.",
+        "What are the steps to get admitted to NGIT?",
+        "Provide details about the NGIT admission procedure.",
+        "I'm interested in joining NGIT. How can I apply for admission?",
+        "Explain the process of getting admission to NGIT.",
+        "What is the entrance exam pattern for NGIT?",
+        "Give me information on how to enroll in NGIT.",
+        "Can you elaborate on the requirements for NGIT admission?",
+        "Share some insights into the NGIT entrance exam and admission criteria."],
+        "responses": [
+          "To get admission in NGIT, you need to follow the admission process outlined by the institute.For detailed information on admission procedures, visit the official NGIT website or contact the admissions office."
+        ]
+      },
+      {
+        "tag": "ngit_location",
+        "patterns": ["Where is NGIT located?", "NGIT address", "Location of Neil Gogte Institute of Technology"],
+        "responses": ["NGIT is located in Parvathapur, Kachawanisingaram Village, Hyderabad, Telangana, India."]
+      },
+      {
+        "tag": "ngit_accreditation",
+        "patterns": ["Is NGIT accredited?", "NGIT accreditation status", "Accreditations of Neil Gogte Institute of Technology","Can you confirm whether NGIT is affiliated with any university?",
+        "Tell me about the current affiliation status of NGIT.",
+        "Is Neil Gogte Institute of Technology associated with any university in terms of affiliation?",
+        "Provide information regarding the affiliations of NGIT.",
+        "I'm exploring NGIT. Can you verify its university affiliation?",
+        "Which university is NGIT affiliated with?",
+        "Could you share details about the affiliation status of NGIT?",
+        "Can you confirm if NGIT has any university affiliations?",
+        "Tell me about the university with which NGIT is affiliated.",
+        "Share insights into the affiliations of Neil Gogte Institute of Technology with universities."],
+        "responses": [
+          "Yes, NGIT is approved by the All India Council for Technical Education (AICTE), New Delhi,It is affiliated to Osmania University (O.U), Hyderabad, and recognized by the Government of Telangana."
+        ]
+      },
+      {
+        "tag": "ngit_events",
+        "patterns": ["Tell me about NGIT events", "Upcoming events at NGIT", "NGIT college festivals","fests at ngit"],
+        "responses": [
+          "NGIT organizes various events throughout the year, including technical fests, cultural events, and workshops.",
+          "Stay updated on the official NGIT website or college notice boards for information on upcoming events."
+        ]
+      },
+      {
+        "tag": "ngit_alumni",
+        "patterns": ["NGIT alumni success stories", "Famous NGIT alumni", "Alumni network at NGIT"],
+        "responses": [
+          "NGIT has a strong alumni network, with many successful graduates making significant contributions in various industries.",
+          "To know more about NGIT alumni and their success stories, check the alumni section on the official website."
+        ]
+      },
+      {
+        "tag": "ngit_infrastructure",
+        "patterns": ["Tell me about NGIT infrastructure", "NGIT campus facilities", "Infrastructure at Neil Gogte Institute of Technology","What kind of facilities does NGIT have on its campus?",
+        "Can you give me information about the infrastructure at NGIT?",
+        "Tell me more about the facilities available to students at NGIT.",
+        "What is the campus like at Neil Gogte Institute of Technology in terms of infrastructure?",
+        "Give me an overview of the amenities provided on NGIT's campus.",
+        "I'm curious about NGIT's infrastructure. Can you provide details?",
+        "Share some insights into the campus facilities at NGIT, please.",
+        "What can you tell me about the physical setup and resources at NGIT?",
+        "Provide information on the infrastructure and facilities offered by NGIT.",
+        "Can you describe the campus environment and amenities at Neil Gogte Institute of Technology?"
+        ],
+        "responses": [
+          "NGIT boasts state-of-the-art infrastructure, including modern classrooms, laboratories, and recreational facilities.The campus is designed to provide students with a conducive learning environment."
+        ]
+      },
+      {
+        "tag": "ngit_vision",
+        "patterns": ["What is NGIT's vision?", "Mission and vision of NGIT", "NGIT goals"],
+        "responses": [
+          "The vision of NGIT is to impart industry-relevant technical skills to students and help them succeed in the software industry.",
+          "The institute aims to provide quality engineering education and prepare students for successful careers."
+        ]
+      },
+      {
+        "tag": "ngit_hostel",
+        "patterns": ["NGIT hostel facilities", "Hostel accommodation at NGIT", "Is there a hostel at NGIT?","Can you provide details about the hostel facilities at NGIT?",
+        "Tell me more about the accommodation options for students at NGIT.",
+        "Is there a hostel available for students at NGIT?",
+        "Give me information on the hostel amenities provided by NGIT.",
+        "I'm curious about NGIT's hostel. Can you provide some details?",
+        "What are the options for hostel accommodation at NGIT?",
+        "Share some insights into the facilities available in NGIT's hostels.",
+        "Can you elaborate on the hostel setup and accommodations at NGIT?",
+        "Provide information on the availability of hostels for NGIT students.",
+        "Tell me about the residential facilities, specifically the hostels, at NGIT."
+        ],
+        "responses": [
+          "NGIT provides hostel facilities for students, ensuring a comfortable and secure living environment.For details on hostel accommodation, including fees and amenities, contact the hostel administration."
+        ]
+      },
+      {
+        "tag": "ngit_scholarships",
+        "patterns": ["Are there scholarships at NGIT?", "NGIT scholarship programs", "Scholarship eligibility at Neil Gogte Institute of Technology","Can you provide information on the availability of scholarships at NGIT?",
+        "Tell me about the scholarship programs offered by Neil Gogte Institute of Technology.",
+        "Are there any scholarships available for students at NGIT?",
+        "What is the eligibility criteria for scholarships at NGIT?",
+        "I'm interested in financial aid. Can you share details about NGIT's scholarship options?",
+        "Do you have any information on the scholarship opportunities provided by NGIT?",
+        "Can you give me insights into the criteria for eligibility for scholarships at NGIT?",
+        "Tell me about the financial assistance programs, specifically scholarships, at NGIT.",
+        "Are there any merit-based or need-based scholarships at NGIT?",
+        "Provide details about the various scholarship opportunities and their eligibility at NGIT."
+       ],
+        "responses": [
+          "NGIT offers various scholarship programs to deserving students based on academic performance and other criteria,For detailed information on scholarship eligibility and application procedures, check the official NGIT website."
+        ]
+      },
+      {
+        "tag": "ngit_research",
+        "patterns": ["NGIT research programs", "Research opportunities at NGIT", "NGIT research facilities"],
+        "responses": [
+          "NGIT encourages research activities, providing students with opportunities to engage in innovative projects.",
+          "Explore the research facilities and ongoing projects at NGIT for a deeper understanding of research opportunities."
+        ]
+      },
+      {
+        "tag": "ngit_library",
+        "patterns": ["NGIT library resources", "Library facilities at NGIT", "How to access the NGIT library?"],
+        "responses": [
+          "NGIT's library is well-equipped with a vast collection of books, journals, and online resources.",
+          "Students can access the library to support their academic endeavors and research."
+        ]
+      },
+      {
+        "tag": "ngit_social",
+        "patterns": ["NGIT social media", "NGIT on social platforms", "Connect with NGIT online"],
+        "responses": [
+          "Stay connected with NGIT through various social media platforms for the latest updates, announcements, and events.",
+          "Follow NGIT on Facebook, Twitter, and Instagram to be a part of the college community online."
+        ]
+      },
+      {
+        "tag": "ngit_advisors",
+        "patterns": ["Who are the academic advisors at NGIT?", "NGIT academic counseling", "Advisory support at NGIT"],
+        "responses": [
+          "NGIT has dedicated academic advisors who provide guidance and support to students throughout their academic journey.",
+          "For personalized academic counseling, students can schedule appointments with their assigned advisors."
+        ]
+      },
+      {
+        "tag": "ngit_discipline",
+        "patterns": ["NGIT code of conduct", "Discipline at NGIT", "College rules at Neil Gogte Institute of Technology"],
+        "responses": [
+          "NGIT maintains a code of conduct to ensure a positive and disciplined learning environment.",
+          "Students are expected to adhere to college rules and regulations for the well-being of the entire NGIT community."
+        ]
+      },
+      {
+        "tag": "ngit_cultural",
+        "patterns": ["NGIT cultural clubs", "Cultural activities at NGIT", "Participate in NGIT cultural events"],
+        "responses": [
+          "NGIT hosts a variety of cultural clubs and activities, providing students with opportunities to showcase their talents.",
+          "Join cultural events and clubs to experience the vibrant and diverse cultural life at NGIT."
+        ]
+      },
+      {
+        "tag": "ngit_sports",
+        "patterns": ["NGIT sports facilities", "Sports activities at NGIT", "NGIT sports clubs"],
+        "responses": [
+          "NGIT encourages sports and physical activities, providing facilities for various sports.",
+          "Engage in sports clubs and activities to stay active and foster a spirit of teamwork and competition."
+        ]
+      },
+      {
+        "tag": "ngit_health",
+        "patterns": ["NGIT health and wellness", "Healthcare facilities at NGIT", "NGIT medical services"],
+        "responses": [
+          "NGIT prioritizes the health and well-being of students, offering healthcare facilities within the campus.",
+          "For medical assistance and wellness programs, students can visit the NGIT health center."
+        ]
+      },
+      {
+        "tag": "ngit_international",
+        "patterns": ["NGIT international programs", "International collaborations at NGIT", "Study abroad opportunities"],
+        "responses": [
+          "Explore international programs and collaborations at NGIT for opportunities to broaden your academic and cultural horizons.",
+          "Participate in study abroad programs to gain a global perspective on engineering and technology."
+        ]
+      },
+      {
+        "tag": "ngit_technology",
+        "patterns": ["NGIT technology initiatives", "Technological advancements at NGIT", "Innovation at Neil Gogte Institute of Technology"],
+        "responses": [
+          "NGIT is at the forefront of technological advancements, fostering innovation and creativity among students.",
+          "Explore the technology initiatives and projects that showcase NGIT's commitment to staying ahead in the field of engineering."
+        ]
+      },
+      {
+        "tag": "ngit_environment",
+        "patterns": ["NGIT environmental initiatives", "Sustainability at NGIT", "Green practices at Neil Gogte Institute of Technology"],
+        "responses": [
+          "NGIT is committed to environmental sustainability, implementing green practices and initiatives.",
+          "Discover how NGIT contributes to a sustainable campus and promotes eco-friendly practices among students."
+        ]
+      },
+      {
+        "tag": "ngit_mentorship",
+        "patterns": ["NGIT mentorship programs", "Mentorship at NGIT", "Student mentorship initiatives"],
+        "responses": [
+          "NGIT offers mentorship programs to help students navigate their academic and career paths.",
+          "Connect with experienced mentors who can provide valuable guidance and support throughout your journey at NGIT."
+        ]
+      },
+      {
+        "tag": "ngit_career",
+        "patterns": ["NGIT career services", "Career counseling at NGIT", "NGIT placement assistance"],
+        "responses": [
+          "NGIT provides comprehensive career services, including placement assistance, workshops, and counseling.",
+          "Explore the career resources available at NGIT to enhance your employability and prepare for a successful future."
+        ]
+      },
+      {
+        "tag": "ngit_online",
+        "patterns": ["NGIT online courses", "Online learning at NGIT", "Virtual programs at Neil Gogte Institute of Technology"],
+        "responses": [
+          "NGIT offers online courses and virtual programs to cater to the diverse learning needs of students.",
+          "Explore the online learning opportunities available at NGIT for flexibility and accessibility in education."
+        ]
+      },
+      {
+        "tag": "ngit_extracurricular",
+        "patterns": ["NGIT extracurricular activities", "Participate in NGIT clubs", "Extracurricular opportunities at NGIT"],
+        "responses": [
+          "NGIT provides a range of extracurricular activities and clubs to foster creativity, leadership, and teamwork.",
+          "Get involved in clubs and activities to complement your academic journey and develop well-rounded skills."
+        ]
+      },
+      {
+        "tag": "ngit_student_life",
+        "patterns": ["NGIT student life", "Student experiences at NGIT", "NGIT campus life"],
+        "responses": [
+          "Experience vibrant student life at NGIT, filled with academic challenges, extracurricular activities, and memorable moments.",
+          "Connect with fellow students, faculty, and staff to create lasting memories during your time at NGIT."
+        ]
+      },
+      {
+        "tag": "ngit_parent",
+        "patterns": ["NGIT parent information", "Parental involvement at NGIT", "NGIT parent support"],
+        "responses": [
+          "NGIT values parental involvement and support in the academic journey of students.",
+          "Parents can stay informed about their child's progress and engage with the NGIT community through various channels."
+        ]
+      },
+      {
+        "tag": "ngit_student_feedback",
+        "patterns": ["NGIT student feedback", "Provide feedback at NGIT", "Student opinions about Neil Gogte Institute of Technology"],
+        "responses": [
+          "NGIT welcomes student feedback as a valuable contribution to continuous improvement.",
+          "Share your opinions and suggestions with NGIT to help enhance the overall learning experience for yourself and future students."
+        ]
+      },
+      {
+        "tag": "ngit_innovation",
+        "patterns": ["NGIT innovation projects", "Innovative initiatives at NGIT", "NGIT student-led innovations"],
+        "responses": [
+          "NGIT encourages student-led innovation projects, providing a platform for creative ideas and solutions.",
+          "Explore the innovative initiatives and projects undertaken by NGIT students that contribute to advancements in technology."
+        ]
+      },
+      {
+        "tag": "ngit_community",
+        "patterns": ["NGIT community engagement", "Community service at NGIT", "NGIT social responsibility"],
+        "responses": [
+          "NGIT emphasizes community engagement and social responsibility, encouraging students to participate in community service initiatives.",
+          "Discover how NGIT students contribute to the community and make a positive impact through various social responsibility programs."
+        ]
+      },
+      {
+        "tag": "ngit_internships",
+        "patterns": ["NGIT internship opportunities", "Internship programs at NGIT", "NGIT industry exposure"],
+        "responses": [
+          "NGIT provides internship opportunities to students, facilitating industry exposure and practical learning.Explore the internship programs available at NGIT to gain valuable experience and enhance your employability."
+        ]
+      },
+      {
+        "tag": "ngit_parents_meeting",
+        "patterns": ["NGIT parents' meeting", "Parent-teacher meetings at NGIT", "NGIT parental involvement events"],
+        "responses": [
+          "NGIT organizes regular parents' meetings to foster communication and collaboration between parents and faculty.",
+          "Stay informed about upcoming parents' meetings to actively participate in your child's academic journey at NGIT."
+        ]
+      },
+      {
+        "tag": "ngit_contests",
+        "patterns": ["NGIT contests and competitions", "Participate in NGIT contests", "NGIT student competitions"],
+        "responses": [
+          "NGIT hosts various contests and competitions to encourage student participation and showcase talents.",
+          "Get ready to showcase your skills and compete in exciting contests organized by NGIT throughout the academic year."
+        ]
+      },
+      {
+        "tag": "ngit_mental_health",
+        "patterns": ["NGIT mental health support", "Counseling services at NGIT", "NGIT student well-being"],
+        "responses": [
+          "NGIT prioritizes the mental health and well-being of students, offering counseling services and support.",
+          "Access mental health resources at NGIT to ensure a healthy and positive learning environment."
+        ]
+      },
+      {
+        "tag": "ngit_languages",
+        "patterns": ["NGIT language programs", "Language courses at NGIT", "Language learning at Neil Gogte Institute of Technology"],
+        "responses": [
+          "NGIT offers language programs and courses to enhance students' language skills and communication abilities.",
+          "Explore language learning opportunities at NGIT to complement your academic and professional development."
+        ]
+      }
+    ]
+  }
